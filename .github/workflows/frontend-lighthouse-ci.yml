@@ -2,13 +2,8 @@ name: Run Lighthouse CI When PR
 
 on:
   pull_request:
-    branches: ['dev']
-    paths:
-      - 'frontend/**'
+    branches: ['main']
 
-defaults:
-  run:
-    working-directory: frontend
 
 jobs:
   lhci:

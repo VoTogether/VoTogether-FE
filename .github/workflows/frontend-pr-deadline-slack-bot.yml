@@ -4,9 +4,8 @@ on:
   pull_request:
     types:
       - opened
-    branches: ['dev']
-    paths:
-      - 'frontend/**'
+    branches: ['main']
+
 
 jobs:
   pull_request_open:
